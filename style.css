@@ -1,0 +1,97 @@
+
+#heading{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 0, 0);
+}
+
+.heading1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    height: 500px;
+}
+
+.heading2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    height: 500px;
+    background-color: blue;
+}
+
+.navbar{
+    padding: 0 !important;
+}
+
+.container-fluid{
+    background-color: #bf0000;
+}
+
+.logo{
+    max-width: 70px;
+    max-height: auto;
+    margin: 20 20 20 20;
+}
+
+.nav-item a{
+    color: snow !important;
+}
+
+.box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    background-color: #5c5c5c;
+}
+
+.images{
+    max-width: 100%;
+    height: auto;
+}
+
+.judul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-family: 'Yusei Magic', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.meeting3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: 40px;
+    padding: 50px;
+}   
+
+.content1{
+    padding: 20px;
+}
+
+.content2{
+    padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .meeting3{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        font-size: 20px;
+        padding: 50px;
+        background-color: red;
+    }  
+}
+
